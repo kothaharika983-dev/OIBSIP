@@ -1,9 +1,3 @@
-# OIBSIP - Oasis Infobyte Data Science Internship Projects
-
-This repository contains the projects completed as part of the **Oasis Infobyte Data Science Internship (OIBSIP)**.
-
----
-
 ## 🌸 Task 1: Iris Flower Classification
 
 ### Objective
