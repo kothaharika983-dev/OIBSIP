@@ -80,3 +80,30 @@ This project focuses on building a Natural Language Processing (NLP) binary clas
 - **Organization:** Oasis Infobyte (OIBSIP)
 - **Domain:** Data Science
 - **Repository Name:** `OIBSIP`
+- 
+- # Task 5: Sales Prediction Using Python
+
+A machine learning project built for the **Oasis Infobyte Data Science Internship (OIBSIP)**[cite: 2].
+
+## 📌 Overview
+Predicts product sales based on advertising budgets spent across **TV**, **Radio**, and **Newspaper** channels using regression models[cite: 2].
+
+## 🛠️ Tech Stack
+* **Language:** Python[cite: 2]
+* **Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn[cite: 2]
+* **Tools:** Jupyter Notebook[cite: 2]
+
+## ⚡ Key Steps
+1. **EDA & Visualization:** Analyzed dataset statistics, feature relationships, and correlation heatmaps[cite: 2].
+2. **Preprocessing:** Split data into training and testing sets ($80/20$ split)[cite: 2].
+3. **Model Building:** Trained Linear Regression and Random Forest Regressor models[cite: 2].
+4. **Evaluation:** Assessed performance using MAE, RMSE, and $R^2$ score[cite: 2].
+
+## 💡 Findings
+* **TV Advertising** has the highest positive impact on product sales[cite: 2].
+* **Newspaper Advertising** showed the weakest correlation with total sales[cite: 2].
+
+---
+* **Organization:** Oasis Infobyte[cite: 2]
+* **Track:** Data Science[cite: 2]
+* **Task:** Task 5 - Sales Prediction Using Python[cite: 2]
