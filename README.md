@@ -1,109 +1,246 @@
-## 🌸 Task 1: Iris Flower Classification
+# OIBSIP
 
-### Objective
-The goal of this project is to build a Machine Learning model that classifies Iris flowers into three target species: **Setosa**, **Versicolor**, and **Virginica** based on their sepal and petal measurements.
+Data Science Internship Projects
 
-### Key Features & Workflow
-- **EDA & Visualization:** Analyzed feature distributions using pair plots, box plots, and correlation matrices.
-- **Model Training:** Trained and evaluated multiple classification models, including Logistic Regression and Decision Trees / Random Forest.
-- **Performance Evaluation:** Evaluated using Accuracy Score, Confusion Matrix, and Classification Report (Precision, Recall, F1-Score).
-
-### Tech Stack
-- **Language:** Python
-- **Environment:** Google Colab
-- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-
-### File
-- `task1.ipynb` (or `Iris_Flower_Classification.ipynb`)
-
----
-## 🚗 Task 3: Car Price Prediction with Machine Learning
-
-### Objective
-Build regression models to predict the selling price of used cars based on historical metrics like Present Price, Car Age, Kilometers Driven, Fuel Type, and Transmission.
-
-### Key Features & Workflow
-- **Data Preprocessing & Encoding:** Cleaned categorical features using One-Hot Encoding.
-- **Model Comparison:** Trained and evaluated **Linear Regression** and **Random Forest Regressor** models.
-- **Metrics Evaluated:** Assessed performance using MAE, RMSE, and $R^2$ Score.
-- **Visualizations:** Rendered feature importances, price distribution plots, correlation heatmaps, and Actual vs. Predicted price comparisons.
-
-### Tech Stack
-- **Language:** Python
-- **Environment:** Google Colab
-- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-
-### File
-- `task3.ipynb`
-- 
-- # Task 4: Email Spam Detection with Machine Learning
-
-## Project Overview
-This project focuses on building a Natural Language Processing (NLP) binary classification model to identify and distinguish spam emails/SMS messages from legitimate (ham) messages using Python and Scikit-Learn.
-
-## Track Details
-- **Domain:** Data Science
-- **Organization:** Oasis Infobyte
-- **Task Level:** Task 4
-
-## Dataset
-- **Source:** SMS Spam Collection Dataset (UCI Machine Learning Repository)
-- **Total Records:** 5,572 messages
-- **Labels:** `ham` (legitimate) and `spam`
-
-## Project Workflow
-1. **Data Cleaning & Preprocessing:** Converted text to lowercase, removed special characters, punctuation, and encoded labels (`ham: 0`, `spam: 1`).
-2. **Train-Test Split:** Stratified 80/20 split to maintain label distribution across training and testing sets.
-3. **Feature Extraction:** Transformed cleaned text into numerical vector features using `TfidfVectorizer` (TF-IDF).
-4. **Model Training:** Trained and evaluated two machine learning algorithms:
-   - Multinomial Naive Bayes (Industry Standard for Text Classification)
-   - Logistic Regression
-5. **Evaluation:** Assessed models using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix visualisations.
-
-## Performance Summary
-| Model | Accuracy | Precision | Recall | F1-Score |
-| :--- | :--- | :--- | :--- | :--- |
-| **Multinomial Naive Bayes** | ~97.5% | High | Balanced | High |
-| **Logistic Regression** | ~96.8% | High | Moderate | High |
-
-## Key Insights
-- **TF-IDF Vectorization:** Helps penalize frequently occurring filler words while assigning higher weights to spam-indicative keywords (e.g., "win", "claim", "urgent", "free").
-- **Recall Importance:** High recall ensures that actual spam messages are successfully caught without letting malicious content reach the inbox. However, high precision is equally vital so legitimate messages are not incorrectly sent to the spam folder.
-
-## Technologies Used
-- **Language:** Python
-- **Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
+This repository contains my projects completed as part of the **Oasis Infobyte Data Science Internship (OIBSIP)**.
 
 ---
 
-### Internship Details
-- **Organization:** Oasis Infobyte (OIBSIP)
-- **Domain:** Data Science
-- **Repository Name:** `OIBSIP`
-- 
-- # Task 5: Sales Prediction Using Python
+## 📌 Task 1 – Iris Flower Classification 🌸
 
-A machine learning project built for the **Oasis Infobyte Data Science Internship (OIBSIP)**[cite: 2].
+### About the Project
 
-## 📌 Overview
-Predicts product sales based on advertising budgets spent across **TV**, **Radio**, and **Newspaper** channels using regression models[cite: 2].
+The objective of this project is to build a machine learning classification model that predicts the species of an Iris flower based on its measurements.
 
-## 🛠️ Tech Stack
-* **Language:** Python[cite: 2]
-* **Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn[cite: 2]
-* **Tools:** Jupyter Notebook[cite: 2]
+The three species are:
 
-## ⚡ Key Steps
-1. **EDA & Visualization:** Analyzed dataset statistics, feature relationships, and correlation heatmaps[cite: 2].
-2. **Preprocessing:** Split data into training and testing sets ($80/20$ split)[cite: 2].
-3. **Model Building:** Trained Linear Regression and Random Forest Regressor models[cite: 2].
-4. **Evaluation:** Assessed performance using MAE, RMSE, and $R^2$ score[cite: 2].
+* Iris Setosa
+* Iris Versicolor
+* Iris Virginica
 
-## 💡 Findings
-* **TV Advertising** has the highest positive impact on product sales[cite: 2].
-* **Newspaper Advertising** showed the weakest correlation with total sales[cite: 2].
+### Technologies Used
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+
+### Machine Learning
+
+The Iris dataset was used to train and test a classification model. The model predicts the species of an Iris flower using its measured features.
+
+### Result
+
+The trained machine learning model successfully predicts the Iris flower species.
+
+### Project File
+
+`Iris_Flower_Classification.ipynb`
 
 ---
-* **Organization:** Oasis Infobyte[cite: 2]
-* **Track:** Data Science[cite: 2]
-* **Task:** Task 5 - Sales Prediction Using Python[cite: 2]
+
+## 📊 Task 2 – Unemployment Analysis in India
+
+### About the Project
+
+This project analyzes unemployment data in India to identify patterns and differences in unemployment rates across different regions and over time.
+
+### Analysis Performed
+
+* Data cleaning and preprocessing
+* Handling missing values
+* Descriptive statistical analysis
+* Region-wise unemployment analysis
+* Unemployment trends over time
+* Urban and rural comparison
+* COVID-19 period analysis
+* Correlation analysis
+* Data visualization
+
+### Technologies Used
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+### Key Finding
+
+The analysis shows significant differences in unemployment rates across regions in India, with noticeable changes over time and during the COVID-19 period.
+
+### Project File
+
+`RAKESH_Task2_Unemployment_Analysis.ipynb`
+
+---
+
+## 🚗 Task 3 – Car Price Prediction
+
+### About the Project
+
+This project focuses on predicting car prices using machine learning techniques. The dataset is analyzed and prepared before training a machine learning model to estimate car prices.
+
+### Technologies Used
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+### Machine Learning
+
+The project uses data preprocessing, exploratory data analysis, feature selection, model training, and evaluation to build a car price prediction model.
+
+### Result
+
+The trained machine learning model is used to predict car prices based on the available features in the dataset.
+
+### Project File
+
+`OIBSIP_DataScience_Task3_Car_Price_Prediction.ipynb`
+
+---
+
+## 📧 Task 4 – Email/SMS Spam Detection
+
+### About the Project
+
+This project uses Natural Language Processing (NLP) and machine learning to classify messages as **Spam** or **Ham (Legitimate)**.
+
+The objective is to build a text classification system that can identify unwanted spam messages.
+
+### Analysis & Processing Performed
+
+* Text data preprocessing
+* Stopword removal
+* TF-IDF feature extraction
+* Training and testing data split
+* Spam and Ham classification
+* Model evaluation
+* Confusion matrix analysis
+* Word cloud visualization
+* Custom message prediction
+
+### Machine Learning Models
+
+* Multinomial Naive Bayes
+* Logistic Regression
+
+### Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+
+### Technologies Used
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* NLTK
+* Scikit-learn
+
+### Result
+
+The trained machine learning models successfully classify messages as **Spam** or **Ham**. The models were compared using multiple evaluation metrics to understand their performance.
+
+### Project File
+
+`Task_4_Email_Spam_Detection.ipynb`
+
+---
+
+## 📈 Task 5 – Sales Prediction Using Python
+
+### About the Project
+
+This project focuses on predicting product sales based on advertising expenditure across **TV, Radio, and Newspaper** channels.
+
+The project applies regression techniques to understand the relationship between advertising spending and sales.
+
+### Analysis Performed
+
+* Data loading and exploration
+* Statistical summary
+* Missing value analysis
+* Exploratory Data Analysis (EDA)
+* Advertising vs Sales scatter plots
+* Correlation heatmap
+* Feature selection
+* Train-test split
+* Model training
+* Model evaluation
+* Residual analysis
+* Feature coefficient analysis
+* Feature importance analysis
+
+### Machine Learning Models
+
+* Linear Regression
+* Random Forest Regression
+
+### Evaluation Metrics
+
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+
+### Features
+
+* TV
+* Radio
+* Newspaper
+
+### Target
+
+* Sales
+
+### Technologies Used
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+### Result
+
+The regression models were trained to predict sales using advertising expenditure. Their performance was compared using MAE, RMSE, and R² Score, while coefficients and feature importance were analyzed to understand the contribution of each advertising channel.
+
+### Project File
+
+`Task_5_Sales_Prediction.ipynb`
+
+---
+
+## 🛠️ Tools & Technologies
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* NLTK
+* GitHub
+
+## 🎓 Internship
+
+**Oasis Infobyte Data Science Internship – OIBSIP**
+
+This repository contains the work completed during the internship, covering data analysis, visualization, classification, natural language processing, and regression-based machine learning projects.
